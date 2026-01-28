@@ -15,7 +15,8 @@ The system consists of three primary parts:
 Ollama must be configured to accept requests from the Chrome extension environment. Open your terminal and execute:
 
 ```bash
-export OLLAMA_ORIGINS="chrome-extension://*" ollama serve
+export OLLAMA_ORIGINS="chrome-extension://*" 
+ollama serve
 
 ```
 
