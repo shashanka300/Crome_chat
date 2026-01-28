@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; padding: 10px; display: flex; flex-direction: column; height: 95vh; }
+    #chat { flex: 1; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+    input { width: 100%; padding: 8px; box-sizing: border-box; }
+    .source-btn { font-size: 10px; color: blue; cursor: pointer; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h3>Site Chat (Ollama)</h3>
+  <div id="chat"></div>
+  <input type="text" id="userInput" placeholder="Ask about this site...">
+  <script src="sidepanel.js"></script>
+</body>
+</html>
